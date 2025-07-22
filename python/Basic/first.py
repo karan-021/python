@@ -354,7 +354,7 @@
 #     print("C is small",c)
 
 
-# Sum of natural Number 
+# Sum of natural Number
 
 n=int(input("Enter the value of Number:"))
 sum=0
