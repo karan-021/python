@@ -354,7 +354,12 @@
 #     print("C is small",c)
 
 
+# Sum of natural Number 
 
-
-# Calculate the Sum of Digits
-
+n=int(input("Enter the value of Number:"))
+sum=0
+i=1
+while i<=n:
+    sum+=i
+    i+=1
+print(sum) 
