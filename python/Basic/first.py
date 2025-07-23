@@ -380,4 +380,80 @@
 
 
 
-                                                                                                                                                                                         
+# Infinite Loop 
+
+# while True:
+#     print("This will run forever!") 
+
+
+
+# Break Statement
+
+# x = 1
+# while x < 10:
+#     if x == 5:
+#         break
+#     print(x)
+#     x += 1
+
+
+
+#  Print 10 to 1 numbers
+
+# i = 10
+# while i >= 1:
+#     print(i)
+#     i-=1
+
+
+
+# Simple Password System
+
+
+# password= "Abhi"
+# setpass = input("Enter password: ")
+# while setpass != password:
+#    password = input("Incorrect. Try again: ")
+# print("Access granted")   
+
+
+
+# Febonecci Serice
+
+# num=int(input("Enter the number:"))
+# n1,n2=0,1
+# print(n1,n2,end=" ")
+# for n1 in range(1,num):
+#     n3=n2+n1
+#     n2=n1
+#     n3=n2
+#     print(n3,end=" ")
+
+
+# num=14
+
+# steps=0
+# while num>0: 
+#         if num % 2 == 0:  
+#             num //= 2 
+#         else:
+#             num-=1  
+#         steps+= 1 
+# print(steps)
+
+
+
+
+# Add  A number until it become a sigle digit number  and return a how many steps to taken a number becoming A singl digit numbrer 
+num =875
+step=0
+while num >=10:
+    temp=num
+    sum_digit=0
+    while temp >0:
+        sum_digit += temp %10
+        temp=temp //10
+    num=sum_digit 
+    step+=1    
+print(step)
+
