@@ -356,13 +356,28 @@
 
 # Sum of natural Number
 
-n=int(input("Enter the value of Number:"))
-sum=0
-i=1
-while i<=n:
-    sum+=i
-    i+=1
-print(sum) 
 
-# 
-khqqqqqqqqqqqqqb                                                                                                                                                                                                             
+
+
+
+
+# While loop 
+
+# n=int(input("Enter the value of Number:"))
+# sum=0
+# i=1
+# while i<=n:
+#     sum+=i
+#     i+=1
+# print(sum) 
+
+#  Counting from 1 to 5
+
+# count = 1
+# while count <= 5:
+#     print(count)
+#     count += 1
+
+
+
+                                                                                                                                                                                         

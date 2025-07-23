@@ -1,5 +1,7 @@
-
-# radius = float(input("Enter the radius of the circle: "))
-# pi = 3.14
-# area = pi * radius*radius
-# print("Area of circule is:",area)
+n=int(input("Enter the value of Number:"))
+# sum=0
+# i=1
+# while i<=n:
+#     sum+=i
+#     i+=1
+# print(sum) 
