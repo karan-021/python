@@ -407,7 +407,7 @@
 
 
 
-# Simple Password System
+# Simple Password System    ............
 
 
 # password= "Abhi"
@@ -418,20 +418,28 @@
 
 
 
-# Febonecci Serice
+
+
+
+
+# Febonecci Serice    ..............
 
 # num=int(input("Enter the number:"))
 # n1,n2=0,1
 # print(n1,n2,end=" ")
-# for n1 in range(1,num):
-#     n3=n2+n1
-#     n2=n1
-#     n3=n2
+# for i in range(2,num):
+#     n3=n1+n2
+#     n1=n2
+#     n2=n3
 #     print(n3,end=" ")
 
 
-# num=14
 
+
+
+
+# number reduce to zero calculate the steps ...........
+# num=14 
 # steps=0
 # while num>0: 
 #         if num % 2 == 0:  
@@ -445,15 +453,128 @@
 
 
 # Add  A number until it become a sigle digit number  and return a how many steps to taken a number becoming A singl digit numbrer 
-num =875
-step=0
-while num >=10:
-    temp=num
-    sum_digit=0
-    while temp >0:
-        sum_digit += temp %10
-        temp=temp //10
-    num=sum_digit 
-    step+=1    
-print(step)
 
+# num =875
+# step=0
+# while num >=10:
+#     temp=num
+#     sum_digit=0
+#     while temp >0:
+#         sum_digit += temp %10
+#         temp=temp //10
+#     num=sum_digit 
+#     step+=1    
+# print(step)
+
+
+
+
+# Function  syntax:    ..................
+
+
+# def function_name(Parameter)
+#     docstring
+#     statement(s)
+#     return Expression
+
+
+
+# ex ...
+
+
+# def addition(a,b):
+#     c=a+b
+#     print(c)
+# addition(5,7)
+
+
+
+# When we pass a string in a statement then we use it
+
+
+# def greet(name, age):
+#     print(f"Hi I am {name}, and I am {age} old.")  # f string(Positional argument)  
+# greet("karan",21)    
+
+
+
+
+# local and global variable scope 
+
+
+
+
+# def fun():
+#     x=5
+#     print("Local x:",x)
+
+
+
+
+
+# Anonimus function   is a single line function that within a conditions in a single line.
+
+# squre=lambda x:x*x
+# print(squre(4))
+
+
+
+
+# febonesi series using function
+
+# def fab(num):
+#     n1,n2=0,1
+#     print(n1,n2,end=" ")
+#     for i in range(2,num):
+#         n3=n1+n2
+#         n1=n2
+#         n2=n3
+#         print(n3,end=" ")
+# fab(10)
+
+
+
+
+
+# def rNum(num):
+#     steps=0
+#     while num>0:
+#         if num %2 ==0:
+#             num //=2
+#         else:
+#             num -=1
+#         steps+=1
+#     print(steps,"Are needs to number become a zero")
+# rNum(1)   
+
+
+
+
+#  num =875
+# step=0
+# while num >=10:
+#     temp=num
+#     sum_digit=0
+#     while temp >0:
+#         sum_digit += temp %10
+#         temp=temp //10
+#     num=sum_digit 
+#     step+=1    
+# print(step)
+
+
+
+
+
+# def DigitNum(num):
+#     step=0
+#     while num>=10:
+#         temp=num
+#         sum=0
+#         while temp >0:
+#             sum+=temp %10
+#             temp=temp//10
+#         num=sum
+#         step+=1
+#     print(step)
+# DigitNum(978)
