@@ -472,6 +472,11 @@
 # Function  syntax:    ..................
 
 
+# 1.defult Argumnt :- pass the parameter and its value in the function parameter ...........
+# 2. Keyword argument :- 
+# 3. positional argument:-  normal parameter with in the function............
+
+
 # def function_name(Parameter)
 #     docstring
 #     statement(s)
@@ -512,7 +517,7 @@
 
 
 
-# Anonimus function   is a single line function that within a conditions in a single line.
+# Anonimus function  is a single line function that within a conditions in a single line.
 
 # squre=lambda x:x*x
 # print(squre(4))
@@ -578,3 +583,78 @@
 #         step+=1
 #     print(step)
 # DigitNum(978)
+
+
+
+
+
+# defult Argumnt..............................
+
+
+# def defult(name="karan"):
+#     print("Name: ",name)
+# defult()
+# defult("sai")
+
+
+
+# Keyword argument ..............
+
+
+# def n(name,age):
+#     print(name+" is "+str(age)+" years old")
+# n(age=21,name="sai") 
+
+
+
+
+# positional argument .........
+
+# def mul(a,b):
+#     return a*b
+# print(mul(4,6))
+
+
+
+
+
+# Type Casting ..................................
+
+# int_value=100
+# string_value='1.54'
+# float_value=float(int_value)
+# print('int value as a float value: ',float_value)
+# print(type(float_value))
+# float_value=float(string_value)
+# print("String value as a int value:",float_value)
+# print(type(float_value))
+
+
+
+
+# 4. Variable - Length Arguments..................
+    #  * when to you're not sure to how many paremeters in the function
+
+# def total(*add):
+#     sum=0
+#     for i in add:
+#         sum+=i
+#     print("Sum: ",sum)
+# total(2,4,6,7,10)
+
+
+#  ....  ** When to use we use  fun as parameter as  key value paire  (dir format )............
+
+# def show_details(**info):
+#     for key, value in info.items():
+#         print(f"{key}: {value}")
+# show_details(name="sai",age=19,city="pune")
+
+
+
+# Find the max number .....................
+
+
+# def l(*num):
+#     print(max(num))
+# l(3,4,5,7,8)
