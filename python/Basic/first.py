@@ -652,9 +652,16 @@
 
 
 
-# Find the max number .....................
+# Find the max number      .....................
 
 
 # def l(*num):
 #     print(max(num))
 # l(3,4,5,7,8)
+
+
+# GCD
+
+# import math
+# a,b=10,18
+# print(math.gcd(a,b))
